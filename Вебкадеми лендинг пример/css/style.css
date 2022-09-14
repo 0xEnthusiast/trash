@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Raleway:wght@900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+/* 
+font-family: 'Manrope', sans-serif 400 700 800;
+font-family: 'Raleway', sans-serif 900;
+*/
+.header {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 0px #E5E9F2;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__list {
+  display: flex;
+  column-gap: 32px;
+}
+.header__item {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 14px;
+  column-gap: 32px;
+}
+.header__link {
+  color: #000;
+  font-size: 14px;
+}
+.header__dl-btns {
+  display: flex;
+  margin-left: auto;
+  column-gap: 12px;
+}
+.container {
+  width: 1110px;
+  margin: auto;
+}
+
+.logo {
+  padding: 22px 0;
+}
+.logo__svg {
+  margin-right: 10px;
+}
+.logo__title {
+  color: #000;
+  font-family: "Raleway";
+  font-size: 14px;
+  margin-right: 38px;
+}
+.logo__container {
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+}
+.main__content {
+  width: 540px;
+  height: 370px;
+  margin: 221px 38px 203px 0;
+}
+.main__title {
+  font-family: "Manrope";
+  color: #18191F;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  margin-bottom: 16px;
+}
+.main__subtitle {
+  font-family: "Manrope";
+  color: #18191F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 32px;
+}
+.main__btn {
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #fff;
+  padding: 16px 35px;
+  background: #8C30F5;
+  border-radius: 8px;
+}
+.main__mockup {
+  margin: 197px 0px;
+}
+.main__svg {
+  width: 524px;
+  height: 400px;
+}
+.main__container {
+  display: flex;
+}
+
+.footer {
+  background: #0B0D17;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  color: #fff;
+}
+.footer__copyright {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 22px 0;
+}
+.footer__nav {
+  display: flex;
+}
+.footer__list {
+  display: flex;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+}
+.footer__size {
+  width: 18px;
+  height: 18px;
+  margin: auto;
+}
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="nav__logo">
+                    <img src="/img/LOGO.svg" alt="">
+                </a>
+                <nav id="nav" class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link--active nav__link">Home</a>
+                            <a href="#" class="nav__link">Works</a>
+                            <a href="#" class="nav__link">Services</a>
+                            <a href="#" class="nav__link">About</a>
+                            <a href="#" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                    <button id="navs__btn" class="nav__btn">
+                        <img id="nav__btn-img" src="/img/icons/nav-btn.svg" alt="" class="nav__btn-img">
+                    </button>
+                </nav>
+            </div>
+            <div class="header__items">
+                <div class="header__content" data-aos="fade-up">
+                    <h1 class="header__heading">Kelvin Kramer<br>Designer & Developer</h1>
+                    <p>I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure here.</p>
+                </div>
+                <div class="header__block-img" data-aos="fade-left">
+                    <img class="header__img" src="/img/hero.png" alt="human-bg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="services">
+        <div class="container">
+            <div class="services__row" data-aos="flip-up">
+                <div class="services__card">
+                    <img src="/img/icons/graphic 1.svg" alt="" class="services__card-img">
+                    <h3 class="services__card-title">UI/UX Design</h3>
+                    <p class="services__card-subtitle">Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
+                <div class="services__card">
+                    <img src="/img/icons/graphic 2.svg" alt="" class="services__card-img">
+                    <h3 class="services__card-title">Development</h3>
+                    <p class="services__card-subtitle">Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
+                <div class="services__card">
+                    <img src="/img/icons/graphic 3.svg" alt="" class="services__card-img">
+                    <h3 class="services__card-title">software testing</h3>
+                    <p class="services__card-subtitle">Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>            
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" data-aos="fade-down">
+        <div class="container">
+            <div class="portfolio__title">
+                <h2 class="portfolio__headeing-1">Portfolio</h2>
+            </div>
+            <div class="portfolio__project project" data-aos="fade-left">
+                <img src="/img/portfolio-1.jpg" alt="" class="project__img">
+                <a href="#" class="project__title">Online fashion store - Homepage</a>
+            </div>
+            <div class="portfolio__project project" data-aos="fade-right">
+                <img src="/img/portfolio-2.jpg" alt="" class="project__img">
+                <a href="#" class="project__title">Reebok Store - Concept</a>
+            </div>
+            <div class="portfolio__project project" data-aos="fade-left">
+                <img src="/img/portfolio-3.jpg" alt="" class="project__img">
+                <a href="#" class="project__title">Braun Landing Page - Concept</a>
+            </div>
+        </div>
+    </section>
+    <footer class="contacts" data-aos="fade-down">
+        <div class="container">
+            <div class="contacts__inner">
+                <h2 class="contacts__title">Contacts</h2>
+                <p class="contacts__text">Want to know more or just chat?<br> You are welcome!</p>
+                <div class="send-msg">
+                    <a class="send-msg__link" href="#">Send message</a>
+                </div>
+                <div class="contacts__social social">
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a href="#!" class="social__link">
+                                <img src="/img/icons/LinkedIn.svg" alt="" class="social__icon">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#!" class="social__link">
+                                <img src="/img/icons/Instargam.svg" alt="" class="social__icon">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#!" class="social__link">
+                                <img src="/img/icons/Behance.svg" alt="" class="social__icon">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#!" class="social__link">
+                                <img src="/img/icons/Dribble.svg" alt="" class="social__icon">
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="social__descr">Like me on<br>LinkedIn, Instagram, Behance, Dribble</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

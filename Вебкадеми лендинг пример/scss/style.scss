@@ -1,0 +1,163 @@
+@import '_reset';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Raleway:wght@900&display=swap');
+/* 
+font-family: 'Manrope', sans-serif 400 700 800;
+font-family: 'Raleway', sans-serif 900;
+*/
+
+.header {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 0px #E5E9F2;
+    &__nav {
+        display: flex;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+        column-gap: 32px;
+    }
+
+    &__item {
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 14px;
+        column-gap: 32px;
+    }
+
+    &__logo-title {
+    }
+
+    &__link {
+        color: #000;
+        font-size: 14px;
+    }
+
+    &__dl-btns {
+        display: flex;
+        margin-left: auto;
+        column-gap: 12px;
+    }
+
+    &__gplay {
+    }
+
+    &__appstore {
+    }
+}
+.container { 
+    width: 1110px;
+    margin: auto;
+}
+.logo {
+    padding: 22px 0;
+    &__svg {
+        margin-right: 10px;
+    }
+
+    &__title {
+        color: #000;
+        font-family: 'Raleway';
+        font-size: 14px;
+        margin-right: 38px;
+    }
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+.main {
+    display: flex;
+    &__content {
+        width: 540px;
+        height: 370px;
+        margin: 221px 38px 203px 0;
+    }
+
+    &__title {
+        font-family: 'Manrope';
+        color: #18191F;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 72px;
+        line-height: 98px;
+        margin-bottom: 16px;
+    }
+
+    &__subtitle {
+        font-family: 'Manrope';
+        color: #18191F;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 32px;
+    }
+
+    &__btn {
+        font-family: 'Manrope';
+        font-size: 20px;
+        color: #fff;
+        padding: 16px 35px;
+        background: #8C30F5;
+        border-radius: 8px;
+    }
+
+    &__mockup {
+        margin: 197px 0px;
+    }
+
+    &__svg {
+        width: 524px;
+        height: 400px;
+    }
+
+    &__container {
+        display: flex;
+    }
+}
+.footer {
+    background: #0B0D17;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    color: #fff;
+    &__copyright {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 22px 0;
+    }
+
+    &__nav {
+        display: flex;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        width: 34px;
+        height: 34px;
+    }
+
+    &__item {
+    }
+
+    &__size {
+        width: 18px;
+        height: 18px;
+        margin: auto;
+    }
+
+
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
